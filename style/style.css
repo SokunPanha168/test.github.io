@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(241, 241, 241);
+}
+
+.box{
+    width: 400px;
+    margin: auto;
+    margin-top: 100px;
+    transition: .5s;
+
+}
+
+.img-box{
+    transition: .5s;
+    opacity: 0.5;
+    width: 100%;
+    height: 300px;
+    background-color: yellow;
+}
+
+img{
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+p{
+    margin: 0;
+    padding: 10px;
+}
+
+
+.box:hover{
+    box-shadow: 5px 5px 4px rgb(118, 118, 118), -5px -5px 4px white;
+}
+
+.box:hover .img-box{
+    opacity: 1;
+}
+
+
